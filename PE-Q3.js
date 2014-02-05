@@ -23,6 +23,6 @@ while(theNum != 1){
 	theNum = theNum / factor;
 }
 
-var largestPrime = Math.max.apply(Math, factorsArr)
+var largestPrime = Math.max.apply(Math, factorsArr);
 
 document.write("<br><br>The largest prime factor = " + largestPrime);
